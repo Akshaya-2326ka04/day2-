@@ -1,0 +1,15 @@
+package com.demo;
+
+public class Abstarction {
+	public static void main(String args[]) {
+		
+	}
+
+}
+abstract class Abstract2 {
+	public abstract void name(); 
+	public void marks() {
+		System.out.println("78%");
+	}
+	
+}

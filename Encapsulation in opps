@@ -1,0 +1,27 @@
+package com.demo;
+
+public class Abstarction {
+	public static void main(String args[]) {
+		Abstarction ab=new Abstarction() {
+			public void name() {
+				System.out.println("KR");
+			
+			}
+		};
+	}
+
+}
+abstract class Abstract2 {
+	public abstract void name(); 
+	public void marks() {
+		System.out.println("78%");
+	}
+	
+}
+
+interface Inter 
+{
+	public void name();
+	public void marks(); 
+			
+}
